@@ -1,0 +1,217 @@
+
+.ugmonk {
+    height: 400px;
+    padding: 25px 10px;
+    max-width: 500px;
+    margin: auto;
+    height: auto;
+    border: 1px solid black;
+
+}
+* {
+    list-style: none;
+    text-decoration: none;
+    margin: 0%;
+    padding: 0%;
+}
+
+header {
+    width: 100%;
+    height: auto;
+    background: linear-gradient(130.68deg, #414141 0%, #2D2D2D 100.52%);
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    text-decoration: none;
+    list-style: none;
+    padding: 50px 0px 200px;
+
+}
+
+header nav ul li a {
+    font-weight: 300;
+    font-size: 18px;
+    color: #E4E4E4;
+}
+
+header nav ul h1 {
+    color: #FFFFFF;
+
+}
+.ugmonk a {
+    color: #000;
+}
+
+.ugmonk button {
+    background: linear-gradient(87.32deg, #E2A300 4.47%, #E29500 95.53%);
+    box-shadow: 0px 2px 13px rgba(226, 158, 0, 0.48);
+    border-radius: 6px;
+    width: 200px;
+    height: 40px;
+    border: 0px;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.ugmonk p {
+    color: #FFFFFF;
+
+}
+
+.ugmonk h2 {
+    color: wheat;
+}
+
+.ugmonk img {
+    width: 500px;
+}
+.WAY2JOB{
+    border: 1px solid black;
+    padding: 25px 10px;
+    max-width: 500px;
+    margin: auto;
+    height: auto;
+    
+
+}
+.WAY2JOB a {
+    color: #000;
+}
+
+.WAY2JOB button {
+    background: linear-gradient(87.32deg, #E2A300 4.47%, #E29500 95.53%);
+    box-shadow: 0px 2px 13px rgba(226, 158, 0, 0.48);
+    border-radius: 6px;
+    width: 200px;
+    height: 40px;
+    border: 0px;
+
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.WAY2JOB img {
+    width: 500px;
+}
+.WAY2JOB p {
+    color: #FFFFFF;
+
+}
+
+.WAY2JOB h2 {
+    color: wheat;
+}
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.Portfolio h2 {
+    font-weight: 400;
+    font-size: 48px;
+    color: #000;
+}
+.Portfolio .class img {
+    width: 500px;
+    
+}
+
+.class {
+    height: auto;
+    max-width: 500px;
+    margin: auto;
+    padding: 25px 10px;
+    height: auto;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.class p {
+    color: #FFFFFF;
+
+}
+
+.class h2 {
+    color: wheat;
+}
+
+.class button {
+    background: linear-gradient(87.32deg, #E2A300 4.47%, #E29500 95.53%);
+    box-shadow: 0px 2px 13px rgba(226, 158, 0, 0.48);
+    border-radius: 6px;
+    width: 200px;
+    height: 40px;
+    border: 0px;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+
+.class a {
+    color: #000;
+}
+.Portfolio {
+    text-align: center;
+    height: auto;
+    background: linear-gradient(130.68deg, #414141 0%, #2D2D2D 100.52%);
+    box-shadow: 0px 4px 15px rgba(27, 27, 27, 0.28);
+    width: 100%;
+    display: flex;
+}
+
+.Portfolio .icon {
+    max-width: 50px;
+    height: 60px;
+}
+
+.Portfolio h1 {
+    color: #E4E4E4;
+
+}
+
+.h2 {
+    color: #E4E4E4;
+    font-weight: 400;
+    font-size: 48px;
+    background: linear-gradient(130.68deg, #414141 0%, #2D2D2D 100.52%);
+    box-shadow: 0px 4px 15px rgba(27, 27, 27, 0.28);
+    text-align: center;
+}
+
+.Portfolio .class img {
+    width: 500px;
+    
+}

@@ -1,0 +1,159 @@
+* {
+    list-style: none;
+    text-decoration: none;
+}
+
+header {
+    max-width: 100%;
+    height: auto;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+hr {
+    width: 80px;
+    color: #FFFFFF;
+    margin: 0px;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 500px;
+    color: #2A2A2A;
+}
+
+header nav ol {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 250px;
+    color: #2A2A2A;
+}
+
+header .ota1 {
+    max-width: 100%;
+    border: 2px solid red;
+    height: 600px;
+    padding-left: 154px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(./img/Rectangle.png);
+}
+
+header .ota1 h2 {
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+    padding-top: 500px;
+}
+
+header .ota1 p {
+    color: whitesmoke;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.ota2 {
+    max-width: 100%;
+    height: auto;
+    padding: 15px;
+    flex-wrap: wrap;
+}
+
+.ota2 ul {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 1000px;
+    color: #B3B3B3;
+}
+
+.new {
+    color: #1A1A1A;
+}
+
+.imgs {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin: auto;
+    padding: 10px;
+    max-width: 1500px;
+}
+
+.img {
+    padding: 20px;
+}
+
+.button button {
+    border-radius: 0px;
+    width: 250px;
+    height: auto;
+    background-color: #1A1A1A;
+    border: 0px solid #1A1A1A;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 15px;
+}
+
+.ota3 {
+    max-width: 100%;
+    height: 450px;
+    padding-top: 300px;
+    padding-left: 250px;
+    background-size: cover;
+    background-image: url(./img/Rectangle\ \(21\).png);
+}
+
+.ota3 h1 {
+    color: #F7F7F7;
+    font-weight: 400;
+    font-size: 35px;
+}
+
+.ota3 button {
+    background: #7E6E45;
+    border: 1px solid #7E6E45;
+    height: 35px;
+    color: #F7F7F7;
+
+}
+.ota3 p {
+    font-weight: 400;
+    font-size: 15px;
+    color: #FFFFFF;
+}
+.ota4{
+    width: 100%;
+    height: 600px;  ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #312F2E;
+    display: flex;
+    justify-content: center
+}
+.ota5{
+    display: flex;
+    padding-top: 80px;
+}
+.bola{
+    text-align: center;
+    width: 360px;
+    height: 436px;
+    background-color: #F7F7F7;
+}
+.bola h1{
+    font-weight: 400;
+font-size: 38px;
+color: #1A1A1A;
+}
+.bola p{
+    font-weight: 400;
+font-size: 15px;
+color: #1A1A1A;
+}

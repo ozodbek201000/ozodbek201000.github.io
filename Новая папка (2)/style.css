@@ -1,0 +1,90 @@
+* {
+    margin: 0px;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+header {
+    width: 100%;
+
+    background-image: url(./rasmlar/Rectangle\ 3\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header nav ul {
+    justify-content: space-evenly;
+    line-height: 50px;
+    display: flex;
+    color: white;
+    flex-wrap: wrap;
+}
+
+header nav ul a {
+    color: #FFFFFF;
+
+}
+
+.ota {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0px 20px auto;
+    
+}
+
+.ota .text h2 {
+    font-weight: 700;
+    font-size: 64px;
+    color: white;
+}
+
+.ota .text h4 {
+    color: white;
+    font-weight: 400;
+    font-size: 30px;
+}
+.ota .text p {
+    font-weight: 400;
+    font-size: 14px;
+    color: white;
+}
+.ota .button{
+    margin: 20px 20px auto;
+}
+.ota img{
+    width: 360px;
+    flex-wrap: wrap;
+}
+.ota .text .first {
+    border: 1px solid transparent;
+    color: white;
+    background-color: #D1A954;
+    width: 200px;
+    height: 45px;
+    
+}
+
+.ota .text .two {
+    border: 1px solid transparent;
+    color: white;
+    background-color: #333333;
+    width: 85px;
+    height: 35px;
+    align-items: center;
+    
+}
+
+@media(max-width:826px) {
+    .ota img{
+       margin-top: 30px;
+    }
+}
+@media(max-width:860px){
+    .ota {
+        width: calc(100% / 2);
+    }
+}
